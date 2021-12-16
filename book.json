@@ -1,6 +1,16 @@
 {
   "root": "./docs",
+  "language": "zh-hans",
   "author": "zxw",
   "description": "Gitbook Demo",
-  "title": "Gitbook Notes"
+  "title": "Gitbook Notes",
+  "plugins": [ 
+    "github",
+    "splitter"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/zhangxwhope/gitbook"
+    }
+  }
 }
